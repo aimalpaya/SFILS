@@ -13,7 +13,7 @@ mysql-connector-python
 
 Ensure Mysql is running
 
-How to build and run:
+How to build and run(Required):
 1. Run create_tables.sql using Mysql
 2. Set path to excel file in load_data.py and run it "python load_data.py"
 3. Should output Inserts and Rows in Excel File:
@@ -30,8 +30,12 @@ Analyze Queries: Run in Mysql
 
 benchmark results and queries included in results tab as pngs/text
 
+Problems:
+Ran into errors with github commands on personal machine
+Errors after using load data when create tables already ran, solution, clear tables before re running
 
 
 Acknowledgements:
 Chatgpt and Gemini was used for assistance in coding and reccommended outputs/helped with errors through and clean up
+Was recommended a flat table
  
