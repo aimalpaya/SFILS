@@ -14,18 +14,24 @@ mysql-connector-python
 Ensure Mysql is running
 
 How to build and run:
-1. Run create_tables.sql
+1. Run create_tables.sql using Mysql
 2. Set path to excel file in load_data.py and run it "python load_data.py"
 3. Should output Inserts and Rows in Excel File:
-4. Optional-add index
+4. Optional-add index using mysql
 
 How to use app:
 1. Ensure that excel data is loaded
 2. Type "python app.py" in command line(may need to change file path to app folder)
 3. Further instructions in app
 
-benchmark and queries included in results tab as pngs/text
+Benchmark Details: Type "python benchmark.py" in command line
+
+Analyze Queries: Run in Mysql
+
+benchmark results and queries included in results tab as pngs/text
+
+
 
 Acknowledgements:
-Chatgpt and Gemini was used for assistance in coding and reccommended outputs
+Chatgpt and Gemini was used for assistance in coding and reccommended outputs/helped with errors through and clean up
  
