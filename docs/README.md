@@ -34,6 +34,7 @@ How to use app:
 3. Further instructions in app
 
 Benchmark Details: Type "python benchmark.py" in command line
+Benchmark creates normalized and flat table performance values
 
 Analyze Queries: Run in Mysql
 
